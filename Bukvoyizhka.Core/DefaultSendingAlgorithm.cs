@@ -1,7 +1,7 @@
 ﻿using Bukvoyizhka.Core.Mutator;
-using BukvoyizhkaLibrary.Credentials;
-using BukvoyizhkaLibrary.Interfaces;
-using BukvoyizhkaLibrary.Sender;
+using Bukvoyizhka.Core.Credentials;
+using Bukvoyizhka.Core.Interfaces;
+using Bukvoyizhka.Core.Sender;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BukvoyizhkaLibrary
+namespace Bukvoyizhka.Core
 {
     public class DefaultSendingAlgorithm : ISendingAlgorithm
     {

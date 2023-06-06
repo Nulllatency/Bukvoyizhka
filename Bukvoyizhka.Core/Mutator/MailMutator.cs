@@ -1,5 +1,5 @@
-﻿using BukvoyizhkaLibrary.Interfaces;
-using BukvoyizhkaLibrary.Mutator;
+﻿using Bukvoyizhka.Core.Interfaces;
+using Bukvoyizhka.Core.Mutator;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Net.Mail;
 using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
-using static BukvoyizhkaLibrary.Mutator.TextMutator;
+using static Bukvoyizhka.Core.Mutator.TextMutator;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Bukvoyizhka.Core.Mutator;

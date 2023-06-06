@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BukvoyizhkaLibrary.Credentials
+namespace Bukvoyizhka.Core.Credentials
 {
     public class GmailAccount
     {

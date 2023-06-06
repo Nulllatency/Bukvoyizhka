@@ -1,5 +1,5 @@
-﻿using Console_Bukvoyizhka.Commands;
-using Console_Bukvoyizhka.Interfaces;
+﻿using Bukvoyizhka.CLI.Commands;
+using Bukvoyizhka.CLI.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Console_Bukvoyizhka.HandleCommand
+namespace Bukvoyizhka.CLI.HandleCommand
 {
     public class CommandInterpreter : ICommandInterpreter
     {

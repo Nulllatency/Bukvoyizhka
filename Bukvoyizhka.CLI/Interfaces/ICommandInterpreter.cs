@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_Bukvoyizhka.Interfaces
+namespace Bukvoyizhka.CLI.Interfaces
 {
     public interface ICommandInterpreter
     {

@@ -1,8 +1,7 @@
-﻿using BukvoyizhkaLibrary;
-using BukvoyizhkaLibrary.Configs;
-using BukvoyizhkaLibrary.Credentials;
-using BukvoyizhkaLibrary.Mail;
-using BukvoyizhkaLibrary.Mutator;
+﻿using Bukvoyizhka.Core;
+using Bukvoyizhka.Core.Configs;
+using Bukvoyizhka.Core.Credentials;
+using Bukvoyizhka.Core.Mutator;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -12,7 +11,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_Bukvoyizhka.Commands
+namespace Bukvoyizhka.CLI.Commands
 {
     public class TestMail : ICommand
     {

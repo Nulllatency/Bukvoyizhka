@@ -5,7 +5,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BukvoyizhkaLibrary.Interfaces;
+namespace Bukvoyizhka.Core.Interfaces;
 public interface IMailMutator
 {
     public MailMessage Mail { get; }

@@ -1,6 +1,6 @@
-﻿using BukvoyizhkaLibrary.Configs;
-using BukvoyizhkaLibrary.Interfaces;
-namespace BukvoyizhkaLibrary.Mutator
+﻿using Bukvoyizhka.Core.Configs;
+using Bukvoyizhka.Core.Interfaces;
+namespace Bukvoyizhka.Core.Mutator
 {
     public enum Spin
     {

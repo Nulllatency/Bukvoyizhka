@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BukvoyizhkaLibrary.Interfaces
+namespace Bukvoyizhka.Core.Interfaces
 {
     public interface ISpinner
     {

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using BukvoyizhkaLibrary.Configs;
-using BukvoyizhkaLibrary.Interfaces;
+using Bukvoyizhka.Core.Configs;
+using Bukvoyizhka.Core.Interfaces;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace BukvoyizhkaLibrary.Mutator
+namespace Bukvoyizhka.Core.Mutator
 {
     public class SpinText : ISpinner
     {

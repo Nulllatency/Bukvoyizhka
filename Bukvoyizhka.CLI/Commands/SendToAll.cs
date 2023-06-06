@@ -1,7 +1,7 @@
-﻿using BukvoyizhkaLibrary.Configs;
-using BukvoyizhkaLibrary.Credentials;
-using BukvoyizhkaLibrary.Mutator;
-using BukvoyizhkaLibrary;
+﻿using Bukvoyizhka.Core.Configs;
+using Bukvoyizhka.Core.Credentials;
+using Bukvoyizhka.Core.Mutator;
+using Bukvoyizhka.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +9,8 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using BukvoyizhkaLibrary.Mail;
 
-namespace Console_Bukvoyizhka.Commands
+namespace Bukvoyizhka.CLI.Commands
 {
     public class SendToAll : ICommand
     {

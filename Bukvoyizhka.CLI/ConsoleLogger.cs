@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace Console_Bukvoyizhka
+namespace Bukvoyizhka.CLI
 {
     public class ConsoleLogger : ILogger
     {
