@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bukvoyizhka.Core", "Bukvoyizhka.Core\Bukvoyizhka.Core.csproj", "{4B300C36-0D57-4CD7-ADFE-C10A934E64F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bukvoyizhka.CLI", "Bukvoyizhka.CLI\Bukvoyizhka.CLI.csproj", "{B0A08935-2B58-44F3-8DC3-CBDF37DE8BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B300C36-0D57-4CD7-ADFE-C10A934E64F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B300C36-0D57-4CD7-ADFE-C10A934E64F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B300C36-0D57-4CD7-ADFE-C10A934E64F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B300C36-0D57-4CD7-ADFE-C10A934E64F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A08935-2B58-44F3-8DC3-CBDF37DE8BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A08935-2B58-44F3-8DC3-CBDF37DE8BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A08935-2B58-44F3-8DC3-CBDF37DE8BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A08935-2B58-44F3-8DC3-CBDF37DE8BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7506752A-71DE-43F7-874D-1FED87D8FA6B}
+	EndGlobalSection
+EndGlobal
